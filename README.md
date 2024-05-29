@@ -4,18 +4,18 @@ A CNN-Model trained on Australian rainy weather for Rain Prediction
 <h2>Table of Contents</h2>
 <div class="alert alert-block alert-info" style="margin-top: 20px">
     <ul>
-    <li><a href="https://#Section_1">Instructions</a></li>
-    <li><a href="https://#Section_2">About the Data</a></li>
-    <li><a href="https://#Section_3">Importing Data </a></li>
-    <li><a href="https://#Section_4">Data Preprocessing</a> </li>
-    <li><a href="https://#Section_5">One Hot Encoding </a></li>
-    <li><a href="https://#Section_6">Train and Test Data Split </a></li>
-    <li><a href="https://#Section_7">Train Logistic Regression, KNN, Decision Tree, SVM, and Linear Regression models and return their appropriate accuracy scores</a></li>
+    <li><a href="#Section_1">Instructions</a></li>
+    <li><a href="#Section_2">About the Data</a></li>
+    <li><a href="#Section_3">Importing Data </a></li>
+    <li><a href="#Section_4">Data Preprocessing</a> </li>
+    <li><a href="#Section_5">One Hot Encoding </a></li>
+    <li><a href="#Section_6">Train and Test Data Split </a></li>
+    <li><a href="#Section_7">Train Logistic Regression, KNN, Decision Tree, SVM, and Linear Regression models and return their appropriate accuracy scores</a></li>
 </a></li>
 
 <hr>
 
-
+<div id="Section_1">
 # Instructions
 In this repository, you will  practice the classification algorithms.
 
@@ -40,7 +40,7 @@ We will evaluate our models using:
 7.  R2-Score
 
 Finally, you will use your models to generate the report at the end.
-
+</div>
 
 # About The Dataset
 The original source of the data is Australian Government's Bureau of Meteorology and the latest data can be gathered from 
