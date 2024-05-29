@@ -1,6 +1,19 @@
 # Rain-Prediction-Model
 A CNN-Model trained on Australian rainy weather for Rain Prediction
 
+<h2>Table of Contents</h2>
+<div class="alert alert-block alert-info" style="margin-top: 20px">
+    <ul>
+    <li><a href="https://#Section_1">Instructions</a></li>
+    <li><a href="https://#Section_2">About the Data</a></li>
+    <li><a href="https://#Section_3">Importing Data </a></li>
+    <li><a href="https://#Section_4">Data Preprocessing</a> </li>
+    <li><a href="https://#Section_5">One Hot Encoding </a></li>
+    <li><a href="https://#Section_6">Train and Test Data Split </a></li>
+    <li><a href="https://#Section_7">Train Logistic Regression, KNN, Decision Tree, SVM, and Linear Regression models and return their appropriate accuracy scores</a></li>
+</a></li>
+
+<hr>
 
 
 # Instructions
@@ -66,3 +79,5 @@ This dataset contains observations of weather metrics for each day from 2008 to 
 | RainTomorrow  | If there is rain tomorrow                             | Yes/No          | float  |
 
 Column definitions were gathered from [http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml](http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2022-01-01)
+
+
