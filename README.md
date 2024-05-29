@@ -85,6 +85,7 @@ Column definitions were gathered from [http://www.bom.gov.au/climate/dwo/IDCJDW0
 </div>
 
 # Installation
+<div id="Section_3">
 To run this project, you'll need to have Python installed along with the following libraries:
 <ul>
 <li>pandas</li>
@@ -95,3 +96,4 @@ To run this project, you'll need to have Python installed along with the followi
 <li>requests</li>
 <li>jupyter</li>
 </ul>
+</div>
