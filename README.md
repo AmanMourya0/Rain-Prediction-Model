@@ -6,7 +6,7 @@ A CNN-Model trained on Australian rainy weather for Rain Prediction
     <ul>
     <li><a href="#Section_1">Instructions</a></li>
     <li><a href="#Section_2">About the Data</a></li>
-    <li><a href="# Installation">Importing Data </a></li>
+    <li><a href="#Section_3">Importing Data </a></li>
     <li><a href="#Section_4">Data Preprocessing</a> </li>
     <li><a href="#Section_5">One Hot Encoding </a></li>
     <li><a href="#Section_6">Train and Test Data Split </a></li>
@@ -81,6 +81,7 @@ This dataset contains observations of weather metrics for each day from 2008 to 
 | RainTomorrow  | If there is rain tomorrow                             | Yes/No          | float  |
 
 Column definitions were gathered from [http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml](http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2022-01-01)
+
 </div>
 
 # Installation
