@@ -97,3 +97,38 @@ To run this project, you'll need to have Python installed along with the followi
 <li>jupyter</li>
 </ul>
 </div>
+
+Usage
+Clone the repository:
+
+sh
+Copy code
+git clone https://github.com/your-username/rain-prediction-australia.git
+cd rain-prediction-australia
+Download the dataset: Download the dataset from Kaggle and place it in the data/ directory.
+
+Run the Jupyter Notebook:
+
+sh
+Copy code
+jupyter notebook
+Open and run the rain_prediction.ipynb notebook to preprocess the data, train the models, and evaluate their performance.
+
+Modeling
+The project involves the following steps:
+
+Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.
+Feature Engineering: Creating new features based on domain knowledge.
+Model Training: Training various machine learning models including Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.
+Model Evaluation: Evaluating models using accuracy, precision, recall, F1-score, and ROC-AUC.
+Results
+The results of the models are compared to identify the best-performing model. The performance metrics for each model are documented in the notebook.
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
