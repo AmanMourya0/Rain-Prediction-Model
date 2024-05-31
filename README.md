@@ -98,37 +98,44 @@ To run this project, you'll need to have Python installed along with the followi
 </ul>
 </div>
 
-Usage
+# Usage
 Clone the repository:
+            git clone https://github.com/your-username/rain-prediction-australia.git
+            cd rain-prediction-australia
 
-sh
-Copy code
-git clone https://github.com/your-username/rain-prediction-australia.git
-cd rain-prediction-australia
-Download the dataset: Download the dataset from Kaggle and place it in the data/ directory.
+<h3>Download the dataset:</h3> Download the dataset from Kaggle and place it in the data/ directory.
 
-Run the Jupyter Notebook:
+<h3>Run the Jupyter Notebook:</h3>
 
-sh
-Copy code
-jupyter notebook
-Open and run the rain_prediction.ipynb notebook to preprocess the data, train the models, and evaluate their performance.
+            jupyter notebook
+            Open and run the rain_prediction.ipynb notebook to preprocess the data, train the models, and evaluate their performance.
 
-Modeling
+# Modeling
 The project involves the following steps:
+<ol>
+<li>Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.</li>
+<li>Feature Engineering: Creating new features based on domain knowledge.</li>
+<li>Model Training: Training various machine learning models including Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.</li>
+<li>Model Evaluation: Evaluating models using accuracy, precision, recall, F1-score, and ROC-AUC.</li>
+</ol>
 
-Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.
-Feature Engineering: Creating new features based on domain knowledge.
-Model Training: Training various machine learning models including Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting.
-Model Evaluation: Evaluating models using accuracy, precision, recall, F1-score, and ROC-AUC.
-Results
+# Results
 The results of the models are compared to identify the best-performing model. The performance metrics for each model are documented in the notebook.
 
-Contributing
+# Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a new Pull Request.
+<ol>
+<li>Fork the repository.</li>
+<li>Create a new branch (git checkout -b feature-branch).</li>
+<li>Commit your changes (git commit -am 'Add new feature').</li>
+<li>Push to the branch (git push origin feature-branch).</li>
+<li>Create a new Pull Request.</li>
+</ol>
+
+# Acknowledgements
+
+<ul>
+<li>Thanks to Kaggle for providing the dataset.</li>
+<li>This project was inspired by various online tutorials and machine learning resources.</li>
+</ul>
