@@ -5,13 +5,14 @@ A CNN-Model trained on Australian rainy weather for Rain Prediction
 <div class="alert alert-block alert-info" style="margin-top: 20px">
     <ul>
     <li><a href="#Section_1">Instructions</a></li>
-    <li><a href="#Section_2">About the Data</a></li>
-    <li><a href="#Section_3">Importing Data </a></li>
-    <li><a href="#Section_4">Data Preprocessing</a> </li>
-    <li><a href="#Section_5">One Hot Encoding </a></li>
-    <li><a href="#Section_6">Train and Test Data Split </a></li>
-    <li><a href="#Section_7">Train Logistic Regression, KNN, Decision Tree, SVM, and Linear Regression models and return their appropriate accuracy scores</a></li>
-</a></li>
+    <li><a href="#Section_2">About The Dataset</a></li>
+    <li><a href="#Section_3">Installation </a></li>
+    <li><a href="#Section_4">Usage</a> </li>
+    <li><a href="#Section_5">Modeling</a></li>
+    <li><a href="#Section_6">Results </a></li>
+    <li><a href="#Section_7">Contributing</a></li>
+    <li><a href="#Section_8">Acknowledgements</a></li>
+    </ul>
 
 <hr>
 
@@ -99,6 +100,7 @@ To run this project, you'll need to have Python installed along with the followi
 </div>
 
 # Usage
+<div id="Section_4">
 Clone the repository:
             git clone https://github.com/your-username/rain-prediction-australia.git
             cd rain-prediction-australia
@@ -111,6 +113,7 @@ Clone the repository:
             Open and run the rain_prediction.ipynb notebook to preprocess the data, train the models, and evaluate their performance.
 
 # Modeling
+<div id="Section_5">
 The project involves the following steps:
 <ol>
 <li>Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.</li>
@@ -120,9 +123,11 @@ The project involves the following steps:
 </ol>
 
 # Results
+<div id="Section_6">
 The results of the models are compared to identify the best-performing model. The performance metrics for each model are documented in the notebook.
 
 # Contributing
+<div id="Section_7">
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 <ol>
@@ -134,7 +139,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 </ol>
 
 # Acknowledgements
-
+<div id="Section_8">
 <ul>
 <li>Thanks to Kaggle for providing the dataset.</li>
 <li>This project was inspired by various online tutorials and machine learning resources.</li>
